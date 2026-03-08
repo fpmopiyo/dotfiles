@@ -1,0 +1,3 @@
+# Local overrides (e.g. machine-specific)
+*.local
+.DS_Store
