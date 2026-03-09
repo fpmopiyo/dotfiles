@@ -8,6 +8,8 @@ cd "$DOTFILES_DIR"
 ln -sf "$DOTFILES_DIR/zshrc" "$HOME/.zshrc"
 echo "Linked zshrc -> ~/.zshrc"
 
+[[ -f "$DOTFILES_DIR/p10k.zsh" ]] && ln -sf "$DOTFILES_DIR/p10k.zsh" "$HOME/.p10k.zsh" && echo "Linked p10k.zsh -> ~/.p10k.zsh"
+
 # Optional: install fzf for history search (Ctrl+R) and tab completion
 if ! command -v fzf &>/dev/null; then
   if command -v apt-get &>/dev/null; then

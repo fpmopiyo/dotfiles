@@ -10,6 +10,7 @@ Version-controlled shell and editor config.
 ## Contents
 
 - **zshrc** — Zsh config (Zap, Powerlevel10k, fzf, history search)
+- **p10k.zsh** — Powerlevel10k prompt config (from `p10k configure`); symlinked as `~/.p10k.zsh`
 
 ## Setup
 

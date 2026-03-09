@@ -53,7 +53,7 @@ fi
 # Run `p10k configure` after first load to run the style wizard.
 # Recommended font: MesloLGS NF — see https://github.com/romkatv/powerlevel10k#fonts
 # -----------------------------------------------------------------------------
-# (Theme is loaded via plug above; config lives in ~/.p10k.zsh after wizard)
+# (Theme is loaded via plug above; config is versioned in ~/.dotfiles/p10k.zsh)
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# Load p10k config (symlink ~/.p10k.zsh -> ~/.dotfiles/p10k.zsh so p10k configure updates the repo file)
+[[ ! -f ~/.dotfiles/p10k.zsh ]] || source ~/.dotfiles/p10k.zsh
